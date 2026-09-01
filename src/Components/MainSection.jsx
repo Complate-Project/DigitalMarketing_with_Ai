@@ -55,7 +55,7 @@ const MainSection = () => {
                   <div className="md:w-2/5 relative group">
                     <img
                       src="https://i.postimg.cc/BnhW44gq/43546.jpg"
-                      alt="Dilouar Hossain"
+                      alt="Engineer Dilouar Hossain"
                       className="w-full h-64 md:h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
@@ -73,13 +73,17 @@ const MainSection = () => {
                           🏆 10+ Years
                         </span>
                         <span className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium shadow-md">
-                          👨‍🎓 500+ Students
+                          👨‍🎓 5000+ Students
                         </span>
-                        <span className="bg-gradient-to-r from-pink-500 to-pink-600 text-white px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium shadow-md">
+                     
+                       <span className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium shadow-md">
+                          📑10 PDF Book
+                        </span>
+                         <span className="bg-gradient-to-r from-purple-500 to-purple-600 text-white px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium shadow-md">
+                          📑 Ai Based Course
+                        </span>
+                            <span className="bg-gradient-to-r from-pink-500 to-pink-600 text-white px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium shadow-md">
                           💻 Giveaway Laptop
-                        </span>
-                        <span className="bg-gradient-to-r from-purple-500 to-purple-600 text-white px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium shadow-md">
-                          📑 Ai Design Course
                         </span>
                       </div>
 
@@ -95,7 +99,7 @@ const MainSection = () => {
                         </div>
                         <div className="text-center p-3 bg-gradient-to-br from-pink-50 to-purple-50 rounded-xl border border-pink-100">
                           <div className="text-xl sm:text-2xl font-bold text-pink-500">
-                            500+
+                            5000+
                           </div>
                           <div className="text-xs sm:text-sm text-gray-600">
                             Students Trained
@@ -105,14 +109,14 @@ const MainSection = () => {
 
                       {/* Trainer Details */}
                       <div className="mb-6">
-                        <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-2">
-                          Dilouar Hossain
-                        </h3>
+                        <h1 className="text-xl sm:text-4xl font-bold text-gray-800 mb-2">
+                          Engineer Dilouar Hossain
+                        </h1>
                         <p className="text-base sm:text-lg text-purple-600 font-semibold mb-1">
                           Digital Marketing Trainer | 10+ Years Experience
                         </p>
                         <p className="text-gray-600 text-sm sm:text-base">
-                          Founder | Zero Degree Agency & Future Lab Institute
+                          Founder at Zero Degree venture & Golden Life Business Ltd
                         </p>
                       </div>
                     </div>
@@ -145,7 +149,7 @@ const MainSection = () => {
                         Batch No-20251101
                       </p>
                       <p className="text-gray-600 text-sm sm:text-base">
-                        Class Start: 01 December 2025
+                        Class Start: 01 November 2026
                       </p>
                     </div>
                   </div>
@@ -217,11 +221,11 @@ const MainSection = () => {
                   <div className="text-5xl font-extrabold mb-2 text-amber-300">
                     ৳ 9,999
                   </div>
-                  <p className="text-lg text-gray-300 line-through">৳ 90,300</p>
+                  <p className="text-lg text-gray-300 line-through">৳ 1,00,000</p>
                   <p className="text-sm text-gray-300 mt-1">
                     এককালীন পেমেন্টে{' '}
                     <span className="text-amber-400 font-semibold">
-                      ৮০% ছাড়
+                      ৯০% ছাড়
                     </span>
                   </p>
                 </div>
@@ -324,7 +328,7 @@ const MainSection = () => {
                         { name: 'ব্র্যান্ডিং সহ টিশার্ট', price: 500 },
                         { name: 'প্রিন্টেড মাগ', price: 500 },
                         { name: 'ব্র্যান্ডিং সহ ক্যাপ', price: 300 },
-                        { name: 'ডিজিটাল মার্কেটিং With Ai বই', price: 500 },
+                        { name: 'ক্যারিয়ার সম্পর্কিত ১০টি পিডিএফ বই', price: 10000 },
                         { name: 'প্রোডাক্ট সোর্সিং এর সুবিধা', price: 5000 },
                       ].map((item, index) => (
                         <div
@@ -347,23 +351,9 @@ const MainSection = () => {
                 {/* Total Calculation */}
                 <div className="pt-6 border-t border-white/20 flex justify-center items-end gap-4">
                   <h4 className="text-xl sm:text-2xl font-bold flex items-center gap-2">
-                    💰 সর্বমোট গিফটের মূল্য :
+                    💰 সর্বমোট গিফটের মূল্য :1,00,000
                   </h4>
-                  <p className="text-3xl font-extrabold text-yellow-300">
-                    {(
-                      2000 +
-                      1500 +
-                      25000 +
-                      5000 +
-                      50000 +
-                      500 +
-                      500 +
-                      300 +
-                      500 +
-                      5000
-                    ).toLocaleString()}{' '}
-                    ৳
-                  </p>
+                  
                 </div>
               </div>
             </div>
@@ -580,7 +570,7 @@ const MainSection = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-blue-400">📧</span>
-                  <span>info@futurelabinstitute.com</span>
+                  <span>info@zerodegree.com.bd</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-purple-400">🕒</span>

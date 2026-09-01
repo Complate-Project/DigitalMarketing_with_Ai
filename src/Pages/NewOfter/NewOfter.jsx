@@ -76,7 +76,7 @@ export const NewOfter = () => {
                   </div>
                   <div className="text-center p-3 sm:p-4 bg-gray-700 rounded-xl border border-gray-600">
                     <div className="text-xl sm:text-2xl md:text-3xl font-bold text-pink-400">
-                      500+
+                      5000+
                     </div>
                     <div className="text-xs sm:text-sm text-gray-300 mt-1">
                       Students Trained
@@ -86,14 +86,14 @@ export const NewOfter = () => {
 
                 {/* Trainer Details */}
                 <div className="mb-6 sm:mb-8">
-                  <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-2">
-                    Dilouar Hossain
-                  </h3>
+                  <h1 className="text-xl sm:text-4xl md:text-3xl font-bold text-white mb-2">
+                    Engineer Dilouar Hossain
+                  </h1>
                   <p className="text-base sm:text-lg md:text-xl text-purple-400 font-semibold mb-2">
                     Digital Marketing Trainer | 10+ Years Experience
                   </p>
                   <p className="text-gray-300 text-sm sm:text-base">
-                    Founder | Zero Degree Agency & Future Lab Institute
+                    Founder at Zero Degree venture & Golden Life Business Ltd
                   </p>
                 </div>
 
